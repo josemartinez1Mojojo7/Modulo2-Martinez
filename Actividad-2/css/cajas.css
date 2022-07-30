@@ -1,0 +1,17 @@
+.encabezado1{
+    border-bottom:  solid #00F;
+    border-width: 2px;
+}
+.encabezado2{
+    border: 2px solid #AAA;
+}
+.listaDatos{
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    border-color: #F00;
+    border-style: dotted;
+}
+.listaContenido{
+    border: 2px solid #0F0;
+    border-style: dashed;
+}

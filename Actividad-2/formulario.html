@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1 class="letraTituloYSub"><strong>Fullstack</strong></h1>
+    </header>
+    <main>
+        <h2 class="letraTituloYSub">Formulario de registro</h2>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend class="letraEnNegrita">¿QUIEN ERES</legend>
+                    <div>
+                        <label for="nombre">Nombre</label><br>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido</label><br>
+                        <input type="text" name="apellido" id="apellido">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="correo">Correo electronico</label><br>
+                        <input type="text" name="correo" id="correo">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="fecha">Fecha de nacimiento</label><br>
+                        <input type="date" name="fecha" id="fecha">
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend class="letraEnNegrita">¿DE DÓNDE ERES?</legend>
+                    <div>
+                        <label for="ciudad">Ciudad</label><br>
+                        <input type="text" id="ciudad" name="ciudad">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="codigoPostal">Codigo Postal</label><br>
+                        <input type="text" name="codigoPostal" id="codigoPostal">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="pais">Pais</label><br>
+                        <select>
+                            <option>Argentina</option>
+                            <option>España</option>
+                            <option>China</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend class="letraEnNegrita">¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+                    <div>
+                        <label for="nombreUsu">Nombre de usuario</label><br>
+                        <input type="text" id="nombreUsu" name="nombreUsu">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="contraseña">Contraseña</label><br>
+                        <input type="text" name="contraseña" id="contraseña">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="contraseña2">Vuelve a escribir la contraseña</label><br>
+                        <input type="text" name="contraseña2" id="contraseña2">
+                    </div>
+                </fieldset>
+                <br>
+                <div>
+                    <input type="checkbox">
+                    <label>Acepto el acuerdo de servicios</label> 
+                </div>
+                <br>
+                <div class="centrar">
+                    <input type="button" value="Crear cuenta" id="boton">
+                </div>
+                
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

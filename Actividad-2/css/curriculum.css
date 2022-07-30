@@ -1,0 +1,17 @@
+header{
+    background-color:rgb(207, 210, 207);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 120, 170);
+}
+h2{
+    letter-spacing: 0.5rem;
+    color: brown;
+}
+.margen-uno{
+    padding: 10px 100px;
+}
+.letra{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,cursive;
+}
